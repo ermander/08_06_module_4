@@ -36,7 +36,7 @@ class App extends React.Component {
     if(this.state.test !== 'something else'){
       console.log("Component updated")
       this.setState({
-        test: this.state.test + 'else'
+        test: this.state.test + ' else'
       })
     }
   }
